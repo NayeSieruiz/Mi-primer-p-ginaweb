@@ -1,0 +1,45 @@
+/*
+    selector {
+        propiedad : valor; 
+        propiedad : valor; 
+    }
+*/
+body {
+    background-color: rgb(255, 255, 255);
+    /*color de texto*/
+    color: rgb(47, 47, 64);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+h1{
+    color:rgb(38, 67, 121);
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    
+    
+}
+
+h3{
+    color:rgb(232, 102, 58)
+
+}
+
+img
+{
+    /* width es ancho del objeto // heigh alto del objeto*/
+    width: 200px;
+}
+.Imagen1{
+    width: 400px;
+    
+}
+.bongo_cat{
+    width:500px;
+    /*border radius para redondear los bordes, con esto se hacen las imagenes circulares*/
+    border-radius:500px;
+    /*sombras*/
+    box-shadow: 1px 0px 50px rgb(1, 94, 254);
+}
+.button_send {
+    border-color: blueviolet;
+}

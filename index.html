@@ -1,0 +1,131 @@
+<!-- html:5 para el esqueleto  -->
+
+<!--metadata para el navegador--> 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REDTAILSDENTRASDE</title>
+    <!--CONEXIÓN CSS CON EL ELEMENTO LINK -->
+    <!--relación con este doc-->
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap"   rel="stylesheet">
+    <!--otra tipografía-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Playfair+Display:ital,wght@0,800;1,400&display=swap" rel="stylesheet">
+
+</head>
+<!-- body es lo que -->
+<body>
+    <!---->
+    <main>
+        <h1> Red Tails la historia detrás de la película </h1>
+        <!--Imagen del google, con la ruta -->
+        <img class ="Imagen1"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfIA6hJfmMxUTgnFwWKJTBY-RDPdw0JFcYu3M9SCleNqDOBcxKnxaMcMqt1TDugmtdBAA&usqp=CAU=">
+        <!--imagen a traves de nuestra computadora-->
+        <img src="./Imagenes/red tails.jpg" alt = 
+            "Imagen red tails"> 
+
+        <img src = "Imagenes/redt.jpg" alt ="otra imagen">
+        <!--Listas-->
+        <!--ul- unordered list (no ordenada)-->
+        <h3> 
+        Página donde se habla de la historia real detrás de la ficción 
+        </h3>
+        <ul>
+            <li> Actores</li>   
+            <li> Personajes Principales</li>
+            <li>Racismo</li>
+            <li>Guerra</li>
+            <li>Algo más </li>
+        </ul>
+    
+        <h3>Temas reelevantes de la película</h3>
+        <ol>
+            <li>Amor en tiempos de odio</li>
+            <li>Racismo a los aviadores</li>
+            <li>Paises en Guerra</li>
+        </ol>       
+        <div>
+            <!--el # significa que nos redirige-->
+            <a href="#alguna parte del doc ">La cara de la Guerra</a>
+            <a href="#otra parte">Reflexion sobre el racismo </a>
+            <a href="#Hola">¿México Racista?</a>
+        </div>
+        <!--break -->
+        <br> 
+        <br> 
+        <!--Secciones de texto H3 header // encabezado no tan grande como h1-->
+        <h3>CRITICA/RESEÑA DE LA PELÍCULA RED TAILS</h3>
+        <!-- id es el nombre propio de nuestro elemento-->
+        <h3 id="alguna parte del doc" > Razones pra ver la película</h3>
+        <!--p es para hacer parrafos, solo podemos poner texto-->
+        <P>En esta película se puede observar y reflexionar sobre lo que era el racismo y sobre todo el racismo en tiempo de guerra </P>
+        <!--lorem*10 se usa para que te de texto random-->
+        <h3>Lo que se puede aprender de la película </h3>
+        <h3>Compañerismo</h3>
+        <pd= id= "otra parte">Apesar de no estar en las mejores condiciones, los pilotos siempre se cuidaban y se apoyaban para lograr los objetivos que se les plantean.</p>
+        
+        <br> 
+        <p> Haz click en esta imagen pra una sorpresa </p>
+        <!--ancla que nos lleva a otro sitio web-->
+        <a href="https://bongo.cat/">
+        <img class="bongo_cat" src="/Imagenes/unnamed.jpg" alt =" "> </a>
+    <!--FORMULARIOS-->
+    <form>
+        <p> Añade una sugerencia </p>
+        <!--etiqueta identificadora para respuestas -->
+        <label for ="dif_1"> 
+            <input type ="text">
+            <button class="button_send"> Enviar</button>
+        </label>
+
+        <!--Formuladrio input radio-->
+        <!--Name para que ls respuestas se asocien al mismo formulario -->
+        <!--FOR  se asocia a cada respuesta indicidulamente-->
+        <p>>
+            ¿Qué te pareció la pelicula?
+        </p>
+        <label
+            for ="Red Tails">
+            <input type="radio" name= "pelicula"> Execelente
+        </label>
+        <label
+            for ="Red Tails">
+            <input type="radio" name= "pelicula"> Buena
+        </label>
+
+        <label
+            for ="Red Tails">
+            <input type="radio" name= "pelicula"> Ni mala, ni buena
+        </label>
+
+        <!--Formuladrio input checkbox-->
+        <!--Name para que ls respuestas se asocien al mismo formulario -->
+        <!--FOR  se asocia a cada respuesta -->
+        <p>>
+            ¿Qué te parecieron los actores que interpretan a cada personaje?
+        </p>
+        <label
+            for ="Red Tails">
+            <input type="checkbox" name= "peliculaf"> Execelente
+        </label>
+        <label
+            for ="Red Tails">
+            <input type="checkbox" name= "peliculaf"> Buena
+        </label>
+
+        <label
+            for ="Red Tails">
+            <input type="checkbox" name= "peliculaf"> Ni mala, ni buena
+        </label>
+    </form>
+
+        </main>
+</body>
+</html>
